@@ -3,7 +3,7 @@
 #include <zephyr/drivers/gpio.h>
 
 #define TEMPO_VERDE_MS 1000
-#define TEMPO_AZUL_MS   500
+#define TEMPO_AZUL_MS  350
 
 #define LED0_NODE DT_ALIAS(led0) // verde
 #define LED1_NODE DT_ALIAS(led1) // azul
